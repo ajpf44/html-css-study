@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #f4f5f7;
+        }
+        picture{
+            width: 100%;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Desafio de imagem dinâmicas</h1>
+    <h2>limões diânmicos</h2>
+
+    <picture>
+        <source media="(max-width: 680px)" srcset="images/lemons-p-350x720.png" type="image/png">
+        <source media="(max-width: 1200px )" srcset="images/lemons-m-700x720.png" type="image/png">
+        <img src="images/lemons-g-1280x720.png" alt="" type="image/png">
+    </picture>
+</body>
+</html>

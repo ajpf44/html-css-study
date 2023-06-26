@@ -1,0 +1,80 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Roboto+Mono&display=swap');
+body{
+    background-image: linear-gradient(to right, #f4f8db73, #cad0a291 );
+}
+
+header{
+    position:fixed;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(to right,#4A672C 14%,#ACC196 40%,#4A672C);
+    padding: 30px 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-size: 30px;
+}
+header .nav{
+    float: right;
+    
+}
+header .logo{
+    float: left;
+    color: white;
+    font-size: 1em;
+    line-height: 30px;
+    font-family: Monoton, sans-serif;
+}
+header .name{
+    color: white;
+    font-size: 20px;
+    font: 'Roboto Mono', monospace;
+}
+
+header .nav a{
+    background-color: rgba(220, 220, 220, 0.568);
+    color: #1a2a22;
+    padding: 10px 10px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 60px;
+    text-decoration:solid
+}
+header .nav a:hover{
+    background-color: rgba(220, 220, 220, 0.884);;
+}
+
+header .nav .active{
+    background-color: rgba(220, 220, 220, 0.884);;
+}
+
+
+main{
+    margin-top: 5%;
+    padding:10px ;
+    background-color: rgba(255, 255, 255, 0.712);
+    font-family: Arial, Helvetica, sans-serif;
+    width:90%;
+    border-radius: 10px;
+
+    box-shadow: 6px 6px 10px #6f7c60ad;
+}
+main h1{
+    text-align: center;
+    text-shadow: 2px 2px 2px #3c675181;
+}
+
+main p{
+    text-align: justify;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #4A672C;
+    color: white;
+}
