@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Javanese:wght@400;500;600;700&display=swap');
+
+:root{
+    --fontCommon: Verdana, Geneva, Tahoma, sans-serif;
+    --fontSection: 'Indie Flower', cursive;
+    --fontTitle:'Noto Sans Javanese', sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html{
+    min-height: 100vh;
+    background-color: darkgray;
+
+    font-family: var(--fontCommon);
+}
+
+header{
+    background-color: black;
+    color:white;
+
+    text-align: center;
+}
+header > h1{
+    padding-top: 1em;
+
+    font-family: var(--fontTitle);
+    font-size: 6vw;
+    font-variant: small-caps;
+}
+
+header > p{
+    padding-bottom: 2em;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+header a:hover, footer a:hover{
+    text-decoration: underline;
+}
+
+main section{
+    background-color: white;
+    color: black;
+
+    padding: 5vh 2em; 
+    line-height: 5vw;
+}
+
+main section.image{
+    background-color: rgba(0, 0, 0, 0.6);
+
+    background-attachment: fixed;
+    background-position: center center;
+
+    color: white;
+
+    box-shadow: inset 0.5em 0.5em 2em 0px rgba(0, 0, 0, 0.49);
+}
+section#ladybird{
+    background-image: url(imagens/background001.jpg);
+}
+section#books{
+    background-image: url(imagens/background002.jpg);
+}
+
+section p{
+    font-family: var(--fontSection);
+    font-size: 3vw;
+
+    padding: 1em;
+    padding-bottom: 0px;
+}
+
+section.image p{
+    background-color: rgba(0, 0, 0, 0.676);
+
+    width: fit-content;
+
+    padding-bottom: 1em;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+
+    padding: 0.7em;
+}

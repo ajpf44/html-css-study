@@ -26,6 +26,11 @@
     margin-bottom: 0px;
 }
 
+html{
+    margin: 0px;
+    padding: 0px;
+}
+
 body{
     margin: 0px;
     background-color: var(--cor1);
@@ -84,7 +89,7 @@ nav a:hover{
 }
 
 main{
-    min-width: 16em;
+    min-width: 14em;
     max-width: 80em; 
 
     margin: auto;
@@ -194,7 +199,7 @@ aside h3{
 
 aside ul{
     columns: 2;
-    width: 100%;
+    width: 90%;
     margin: auto;
 }
 

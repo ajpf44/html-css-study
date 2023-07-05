@@ -1,0 +1,82 @@
+body{
+    margin: 0px 0px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1{
+
+    margin: 0px;
+    padding-top: 1em;
+
+    font-size: 4vw;
+}
+
+header > p{
+    padding-bottom: 1em;
+}
+
+header a{
+    color: white;
+}
+
+header a:hover{
+    font-weight: bold;
+}
+
+section{
+    height: fit-content;
+
+    padding: 2%;
+    font-size: 3vw;
+}
+
+section.ladybird{
+    background-image: url(imagens/background001.jpg);
+    background-size: cover;
+
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+section.book{
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
+
+    background-attachment: fixed;
+    background-position: center center;
+}
+section p{
+    background-color: rgba(0, 0, 0, 0.66);
+    color: white;
+
+    width: fit-content ;
+
+    font-family: cursive;
+    line-height: 5vw;
+    
+    margin: 0px 0px 0px 2%;
+    padding: 2%;;
+}
+
+section.white p{
+    background-color: white;
+    color: black;
+}
+
+footer{
+    background-color: black;
+    color: white;
+
+    text-align: center;
+
+    font-size: 1.4vw;
+    margin: 0px;
+}
