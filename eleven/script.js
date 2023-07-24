@@ -1,5 +1,8 @@
 const img =  document.getElementsByTagName('img')[0]
 const body = document.querySelector('body')
+const main = document.getElementsByTagName('main')[0]
+
+main.draggable = false
 img.draggable = false
 
 let intervalID = null

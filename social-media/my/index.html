@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            width: 100vw;
+            height: 100vh;
+            margin: 0;
+        }
+        section#container{
+            width: 100%;
+            height: 100%;
+
+            display: flex;
+            background-image: url(assets/background-done.jpg);
+    
+            background-position: center center;
+            
+            background-size: cover;
+        }
+        main{
+            width: 93vw;
+            height: 100%;
+        }
+        section#cellphone{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+        }
+        section#cellphone img{
+            position: absolute;
+            width: 20em;
+            translate:  -50% -50%;
+        }
+        div#cellScreen{
+            background-color: white;
+            width: 18.65em;
+            height: 34em;
+            translate:  -51% -47%;
+            position: absolute;
+            border-radius: 2%
+        }
+        #cellScreen iframe{
+            width: 100%;
+            height: 100%;
+            border-radius: 2%
+        }
+
+        nav{
+            background-color: rgba(0, 0, 0, 0.649);
+            width: 8vw;
+            padding: 0.2em;
+        }
+        nav a{
+            display: flex;
+            margin: 2em auto;
+
+            justify-content: center;
+            align-items: center;
+            
+            background-color: transparent;
+
+            width: 4em;
+            height: 4em;
+
+            border-radius: 50%;
+        }
+        nav a img{
+            width: 80%;
+            height: auto;
+
+            animation-duration: 1s;
+        }
+        nav a img:hover{
+            width: 90%;
+        }
+    </style>
+</head>
+<body>
+    <section id="container">
+        <main>
+            <section id="cellphone">
+                <img src="assets/cellṕhone.png" alt="">
+                <div id="cellScreen">
+                    <iframe src="home.html" name='screen' sandbox="sandbox" scrolling=""></iframe>
+                </div>
+            </section>
+        </main>
+        <nav>
+            <a href="home.html" target="screen">
+                <img src="assets/icons/home.png" alt="">
+            </a>
+            <a href="https://www.tutorialrepublic.com/" target="screen">
+                <img src="assets/icons/tutorial-icon.png" alt="">
+            </a>
+
+            <a href="https://clonescript.com/youtube-clones" target="screen">
+                <img src="assets/icons/youtube-icon.png" alt="">
+            </a>
+
+            <a href="https://www.vanityfair.com/news/2022/04/elon-musk-twitter-terrible-things-hes-said-and-done" target="screen">
+                <img src="assets/icons/twitter-icon.png" alt="">
+            </a>
+
+            <a href="https://www.slant.co/options/5769/alternatives/~instagram-alternatives" target="screen">
+                <img src="assets/icons/instagram-icon.png" alt="">
+            </a>
+
+            <a href="https://ajpf44.github.com/" target="screen">
+                <img src="assets/icons/github-icon.png" alt="" width="110%">
+            </a>
+        </nav>
+    </section>
+    <footer>
+
+    </footer>
+</body>
+</html>
