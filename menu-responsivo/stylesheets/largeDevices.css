@@ -1,0 +1,33 @@
+
+header #menu{
+    display: block;
+    justify-content: space-around;
+
+    margin: auto;
+    width: fit-content;
+    padding-bottom: 0.8em;
+}
+header #menu-icon{
+    display: none;
+}
+header li{
+    display: inline;
+    margin-right: 1em;
+}
+header menu a{
+    display: inherit;
+
+    background-color: darkolivegreen;
+    color: white;
+
+    text-decoration: none;
+    text-align: center;
+    
+    border-top: 0.1em solid #A6B888;
+    padding: 0.5em 0.5em;
+}
+
+header menu a:hover, #menu-icon:hover{
+    background-color: rgb(117, 149, 64);
+    cursor: pointer;
+}

@@ -9,38 +9,48 @@ body{
 
 header{
     background-color: #A6B888;
+    padding-top: 0.7em;
 }
 header h1{
-    margin-top: 0px;
-    text-align: center;
+    color: white;
 
+    text-align: center;
+    text-shadow: 0.05em 0.05em  black;
+    
     margin-bottom: 0.4em;
 }
 header menu{
-    margin: 0px;
+    display: none;
 }
-header menu a{
+header #menu-icon{
+    background-color: rgb(58, 73, 32);
+    
+    width: 100%;
+    padding: 0.4em 0em;
+
+}
+header menu a, header span{
     display: block;
 
     background-color: darkolivegreen;
     color: white;
 
-    text-decoration: solid;
+    text-decoration: none;
     text-align: center;
     
     border-top: 0.1em solid #A6B888;
     padding: 0.8em 0em;
-    margin: 0px;
 }
 
-header menu a:hover{
+header menu a:hover, #menu-icon:hover{
     background-color: rgb(117, 149, 64);
+    cursor: pointer;
 }
 
 main{
     background-color: white;
     
-    max-width: 50em;
+    max-width: 60em;
 
     margin: auto;
     padding: 1em 0.5em;
