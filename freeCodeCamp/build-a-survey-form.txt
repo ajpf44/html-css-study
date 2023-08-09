@@ -1,0 +1,171 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, inital-scale=1.0' >
+  <link rel='stylesheet' href='styles.css'>
+</head>
+<body>
+  <main>
+    <header>
+      <h1 id='title'>Catsbook</h1>
+      <p id='description'>A especial social media for cat's</p>
+    </header>
+    <hr>
+    <h2>Registration</h2>
+    <form id='survey-form'>
+      <hr>
+      <fieldset id='firstField'>
+        <legend>Your Cat Info:</legend>
+        <label for='name' id='name-label'>
+          Hers/his Name:
+          <input type='text' required name='name' id='name' placeholder='Ex: Sprinkles'>
+        </label>
+
+        <label for='email' id='email-label'>
+          Your or hers/his Email : 
+          <input type='email' required name='email' id='email'placeholder='Ex: sprinklescandy@mail.com' >
+        </label>
+
+        <label for='age' id='number-label' >
+          Hers/his Age (optional):
+          <input type='number' name='age' id='number' min=0 max=50 placeholder='Ex: 7'>
+        </label>
+
+        <label for='dropdown'>
+          What's your cat's favorite hobby?
+          <select id='dropdown'>
+            <option value=''>(select one)</option>
+            <option value='1'>Eating</option>
+            <option value='2'>Seeking buterflies</option>
+            <option value='3'>Hidding</option>
+            <option value='4'>Take a nap</option>
+            <option value='5'>Climbing up things</option>
+            <option value='6'>Other</option>
+          </select>
+        </label>
+      </fieldset>
+
+      <hr>
+      <fieldset id='secondField'>
+        <legend>How do you care for your cat?</legend>
+        <label>
+          Would you take your cat to a walk in a park?
+          <label for='of' ><input name='park' id='of' type='radio' value='of'> Of course</label>
+          <label for='yes'><input name='park' id='yes' type='radio' value='y'> Yes</label>
+          <label for='not'><input name='park' id='not' type='radio' value='n'> Not</label>
+          <label for='defNot' ><input name='park' id='defNot' type='radio' value='df'> Definitely not</label>
+        </label>
+        
+        <label>
+          How you feed your cat?
+          <label for='lasagna'><input type='checkbox' id='lasagna' value='lasagna'> Lasagna</label>
+          <label for='ration'><input type='checkbox' id='ration' value='ration'> Ration</label>
+          <label for='fish'><input type='checkbox' id='fish' value='fish'> Fish</label>
+          <label for='popcorn'><input type='checkbox' id='popcorn' value='pop'> Pop Corn</label>
+          <label for='butterflies'><input type='checkbox' id='butterflies' value='bf'> Butterflies</label>
+        </label>
+      </fieldset>
+
+      <hr>
+      <fieldset>
+        <legend>Your Cat's Bio</legend>
+        <label for='catsBio'> Describe your cat:
+          <textarea id="catsBio" rows="5" cols="60" placeholder='Sprinkles is such a lazy cat, her sleeps all day...'></textarea>
+        </label>
+      </fieldset>
+
+      <input type= 'submit' value='Submit' id='submit'>
+    </form>
+  </main>
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body{
+  background-image: url('https://wallpaperaccess.com/full/101208.jpg');
+  background-position: top center;
+  background-size: cover;
+
+  font-size: 1.3em;
+}
+
+header{
+  margin: auto;
+  width: fit-content;
+  
+  font-weight: bold;
+  text-align: center;
+
+  padding: 0.3em;
+}
+
+header p{
+  margin-bottom: 0px;
+  font-style: italic;
+}
+header h1{
+  margin-top: 0em;
+  text-decoration: underline;
+}
+
+main{
+  background-color: #733F52;
+  color: #ffffff;
+
+  font-family: Arial;
+
+  min-width: 20em;
+  max-width: 50em;
+
+  margin: 1em auto;
+  padding: 2em;
+  border-radius: 5%;
+}
+main h2{
+  font-size: 1.3em;
+  text-align: center;
+}
+
+main fieldset{
+  border: none;
+}
+main hr{
+  border-color: lightgray;
+}
+form fieldset>label{
+  margin: 1em 0px;
+}
+
+form input, label, select, textarea{
+  display:block;
+}
+
+input, textarea, option, select{
+  font-size: 1em
+}
+
+#firstField input, select{
+  margin-top: 0.2em;
+}
+#secondField label>label{
+  margin-top: 0.2em;
+}
+
+input[type='radio'], input[type='checkbox']{
+  display: inline;
+  scale: 150%;
+}
+
+#submit{
+  width: 100%;
+  padding: 0.4em
+}
+
+** end of undefined **
+
