@@ -78,5 +78,28 @@ form input[type='submit']{
     margin-top: 2em;
 }
 
+@media screen and (orientation: landscape) {
+    main{
+        display: flex;
+        align-items: center;
+
+        width: 40em;
+        height: 20em;
+
+        padding: 0px;
+    }
+    #secImg{
+        width: 11.25em;
+        margin: 0px 2em;
+    }
+    #secImg img{
+        display: block;
+    }
+    form{
+        width: 40%;
+        display: inline-block;
+        margin-left: 2em;
+    }
+}
 
 
