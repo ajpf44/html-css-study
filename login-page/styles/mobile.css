@@ -89,7 +89,7 @@ form input[type='submit']{
         padding: 0px;
     }
     #secImg{
-        width: 11.25em;
+        width: 13.8em;
         margin: 0px 2em;
     }
     #secImg img{
@@ -98,7 +98,7 @@ form input[type='submit']{
     form{
         width: 40%;
         display: inline-block;
-        margin-left: 2em;
+        margin-left: 1em;
     }
 }
 
