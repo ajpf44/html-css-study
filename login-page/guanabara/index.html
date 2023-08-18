@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/mediaQuery.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Document</title>
 </head>
 <body>
@@ -15,10 +17,27 @@
             <div id="form">
                 <h1>Login</h1>
                 <p>
-                    Welcome back to your account! Log in to configure your environment and get started.
+                    Welcome back to your account! <br>
+                    Log in to configure your environment and get started.
                 </p>
-                <form method="post">
-                    
+                <form method="post" autocomplete="on">
+                    <label for="ilogin" class="field">
+                        <span id="person" class="material-symbols-outlined">
+                            person
+                        </span> 
+                        <input type="email" name="login" id="ilogin" placeholder="Email" autocomplete="email" required maxlength="40">
+                    </label>    
+
+                    <label for="isenha" class="field">
+                        <span id="person"  class="material-symbols-outlined">
+                            vpn_key
+                        </span> 
+                        <input type="password" name="senha" id="isenha" placeholder="Senha" autocomplete="current-password" required minlength="8" maxlength="20">
+                    </label>    
+                    <input type="submit" value="Login">
+                    <a href="#" class="button">Esqueci a senha <span class="material-symbols-outlined mail">
+                        mail 
+                    </span> </a>
                 </form>
             </div>
         </section>
